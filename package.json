@@ -1,0 +1,16 @@
+{
+  "name": "perceptronjs",
+  "version": "1.0.0",
+  "description": "multilayer perceptron library",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "keywords": [
+    "machine-learning",
+    "perceptron"
+  ],
+  "type": "module",
+  "author": "Daniel Morgan",
+  "license": "MIT"
+}
