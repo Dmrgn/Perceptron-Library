@@ -10,7 +10,7 @@
 //              input array)
 
 // import the neural network class
-import { NeuralNetwork } from "./library/neuralNetwork.js";
+import { NeuralNetwork } from "../NeuralNetwork.js";
 
 // utility for generating data
 function random_max(x) {
@@ -35,7 +35,7 @@ for (let i = 0; i < 100; i++) {
     // index 0 will be 1 if there are zero 1s in cur_data
     // index 1 will be 1 if there is one 1 in cur_data
     // etc..
-    cur_answer[rand.reduce((x,y)=>{return x+y})] = 1;
+    cur_answer[cur_data.reduce((x,y)=>{return x+y})] = 1;
     answers.push(cur_answer);
 }
 
